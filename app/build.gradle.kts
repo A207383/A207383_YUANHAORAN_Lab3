@@ -55,4 +55,8 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Lab 4 必需：导航组件
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    // Lab 4 必需：ViewModel 组件
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 }
